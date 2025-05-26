@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.invisible{
+    display: none;
+}
+
+#perfil{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#perfil div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mostrar-proyectos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#proyectos {
+
+     display: grid;
+
+     grid-template-columns: repeat(3, 1fr);
+
+     row-gap: 1rem;
+     column-gap: 1rem;
+
+}
+
+#proyectos > h2 {
+
+     grid-column: 1 / -1;
+
+}
