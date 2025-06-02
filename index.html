@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
     <header>
         <h1>Steve Robinson Feraud</h1>
         <nav>
-            <p>Curriculum Vitae</p>
+            <p><span class="negrita">Curriculum Vitae</span></p>
             <ul>
                 <li><a href="#perfil">Perfil</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -29,33 +29,33 @@
     <main>
         <section id="perfil">
             <h2 class="invisible">Perfil</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/clhNHc9pMCQ" title="Video de presentación de Steve Robinson" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/clhNHc9pMCQ" title="Video de presentación de Steve Robinson" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
             <div>
-                <p>Soy Steve Robinson</p>
-                <p>Soy Steve Robinson</p>
-                <p>Soy Steve Robinson</p>
+                <p class="nombre">Hola, soy <span class="resaltado">Steve Robinson</span>.</p>
+                <p class="titulo">Desarrollador de Software</p>
+                <p class="estudio">Estudiante de Computación</p>
             </div>
         </section>
 
         <section id="proyectos">
             <h2>Proyectos</h2>
-            <div>
-                <h3>Proyecto 1</h3>
-                <img src="./images/proyecto1.jpg" alt="Imagen del proyecto 1">
-                <p>Descripción del proyecto 1.</p>
-                <button>Ver más</button>
+            <div class="proyecto">
+                <h3>Administrador de Ferias</h3>
+                <img height="200rem" width="300rem" src="./images/AdministradorFerias.png" alt="Menú principal del Administrador de Ferias">  
+                <p>Programa de escritorio con interfaz gráfica que se encarga de la administración de stands dentro de una feria.</p>
+                <a href="https://github.com/stikrobinson/POO-P3-G10" target="_blank"><button>Ver más</button></a>
             </div>
-            <div>
-                <h3>Proyecto 2</h3>
-                <img src="./images/proyecto1.jpg" alt="Imagen del proyecto 1">
-                <p>Descripción del proyecto 1.</p>
-                <button>Ver más</button>
+            <div class="proyecto">
+                <h3>Sistema para Comercialización de Vehículos</h3>
+                <img height="200rem" width="300rem" src="./images/sistema_comercializacion.png" alt="Menú de compra y venta de vehículos">
+                <p>Programa de escritorio con interfaz gráfica que se encarga de gestionar la venta y compra de vehículos entre usuarios.</p>
+                <a href="https://github.com/stikrobinson/Proyecto_Grupo_12" target="_blank"><button>Ver más</button></a>
             </div>
-            <div>
-                <h3>Proyecto 3</h3>
-                <img src="./images/proyecto1.jpg" alt="Imagen del proyecto 1">
-                <p>Descripción del proyecto 1.</p>
-                <button>Ver más</button>
+            <div class="proyecto">
+                <h3>Bot de Discord</h3>
+                <img height="200rem" width="300rem" src="./images/usoBot.png" alt="Screnshot del bot de Discord">
+                <p>Bot que funciona en discord con comandos que proveen entretenimiento a los miembros de un servidor mediante quizzes y juegos.</p>
+                <a href="https://github.com/stikrobinson/DiscordBot" target="_blank"><button>Ver más</button></a>
             </div>
         </section>
 
@@ -66,10 +66,100 @@
                 <p>Descripción de la habilidad 1.</p>
             </div>
         </section>
+
+        <section id="educacion">
+            <h2>Educación y Formación Profesional</h2>
+            <div class="imagen-timeline der">
+                <img class="circular" src="https://pbs.twimg.com/profile_images/1729906330008166401/WJSC0wDh_400x400.jpg" alt="Logo de la ESPOL" width="150" height="150">
+                <div class="linea"></div>
+            </div>
+            <div class="cuadro"></div>
+            <div class="descripcion textizq">
+                <h3>Ingeniería en Ciencias de la Computación</h3>
+                <p><span class="negrita">Escuela Superior Politécnica del Litoral - Presente</span><br>Carrera que forma profesionales que participan activamente en grupos multidisciplinares para diseñar e implementar soluciones de software y hardware.</p>
+            </div>
+            <div class="descripcion textder">
+                <h3>Bachillerato en Ciencias</h3>
+                <p><span class="negrita">Unidad Educativa Bilingüe Montessori - 2023</span><br>Tiene como propósito brindar a las personas una formación general, y una preparación interdisciplinaria y especializada, así como acceder al Sistema de Educación Superior. Enfocado en la formación en áreas científico-humanísticas.</p>
+            </div>
+            <div class="cuadro"></div>
+            <div class="imagen-timeline izq">
+                <div class="linea"></div>
+                <img class="circular" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvosk8f56sEEaYzS63JsyXdyWxgZZj_5vsmg&s" alt="Logo de Montessori" width="150" height="150">
+            </div>
+            <div class="imagen-timeline der">
+                <img class="circular" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBre0_bA88afAjZwf2rBw6fTd5rsYqW1Vi4flg1ivDMqFW1JYoDhU3mbjrJbyVZOsbjms&usqp=CAU" alt="Logo de IBEC" width="150" height="150">
+                <div class="linea"></div>
+            </div>
+            <div class="cuadro"></div>
+            <div class="descripcion textizq">
+                <h3>Marketing Digital</h3>
+                <p><span class="negrita">IBEC Corporation - 2022</span><br>Es una capacitación en línea que enseña a usar herramientas y estrategias digitales para promocionar productos y servicios. Está dirigido a estudiantes, emprendedores y profesionales.</p>
+            </div>
+            <div class="descripcion textder">
+                <h3>Conocimientos Fundamentales de Aplicaciones en Línea</h3>
+                <p><span class="negrita">European Computer Driving Licence - 2020</span><br>Establece los conceptos y habilidades esenciales para la navegación por la web, búsqueda efectiva de información, comunicación en línea y correo electrónico.</p>
+            </div>
+            <div class="cuadro"></div>
+            <div class="imagen-timeline izq">
+                <div class="linea"></div>
+                <img class="circular" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Ecdl-logo.jpg" alt="Logo de ECDL" width="150" height="150">
+            </div>
+            <div class="imagen-timeline der">
+                <img class="circular" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBre0_bA88afAjZwf2rBw6fTd5rsYqW1Vi4flg1ivDMqFW1JYoDhU3mbjrJbyVZOsbjms&usqp=CAU" alt="Logo de IBEC" width="150" height="150">
+                <div class="linea"></div>
+            </div>
+            <div class="cuadro"></div>
+            <div class="descripcion textizq">
+                <h3>Conocimientos Fundamentales de Ofimática</h3>
+                <p><span class="negrita">IBEC Corporation - 2019</span><br>Los conocimientos de ofimática implican la capacidad de utilizar herramientas de software de productividad, como procesadores de texto, hojas de cálculo y presentaciones.</p>
+            </div>
+            <div class="descripcion textder">
+                <h3>Fundamentos de Computación</h3>
+                <p><span class="negrita">Digital Literacy Certification - 2018</span><br>Trata de los conceptos y habilidades básicas sobre el uso de computadoras, dispositivos, redes, y navegación en internet. Se cubren temas como gestión de archivos, aplicaciones, seguridad en línea, y comunicación a través de internet</p>
+            </div>
+            <div class="cuadro"></div>
+            <div class="imagen-timeline izq">
+                <div class="linea"></div>
+                <img class="circular" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK3SMdzTOnjM8wWGilKw6ILnsDSEmWOXAh3Q&s" alt="Logo de Digital Literacy Certification" width="150" height="150">
+            </div>
+        </section>
         
-        <section>
-            <h2></h2>
-            <form></form>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="nombre" required>
+
+                <label for="email">Correo de Contacto:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                <legend>Seleccione el motivo del mensaje:</legend>
+
+                <label for="web">Desarrollo de Página Web</label>
+                <input type="radio" id="web" name="motivo" value="web" required>
+                <br>
+                <label for="escritorio">Desarrollo de Aplicación de Escritorio</label>
+                <input type="radio" id="escritorio" name="motivo" value="escritorio" required>
+                <br>
+                <label for="bot">Desarrollo de Bot en Discord</label>
+                <input type="radio" id="bot" name="motivo" value="bot" required>
+
+                </fieldset>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea type="text" id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+            <aside>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.023651929019!2d-79.97238991114502!3d-2.1446260000000037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1748766755054!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+        </section>
+
+        <section id="referencias">
+            <h2>Referencias</h2>
         </section>
     </main>
 
