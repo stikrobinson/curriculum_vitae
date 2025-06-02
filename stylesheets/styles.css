@@ -19,7 +19,7 @@ nav{
     box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
-p, ul a{
+p, ul a, td, li{
     color: #bdc4d3;
 }
 
@@ -40,7 +40,7 @@ a{
     text-decoration: none;
 }
 
-h2{
+h2, th{
     color: #ccd2df;
 }
 
@@ -99,7 +99,7 @@ h1{
      grid-column: 1 / -1;
 }
 
-#proyectos > div {
+#proyectos > div, .habilidad {
     text-align: center;
      background-color: #2c2f33;
      padding: 1rem;
@@ -213,7 +213,7 @@ p{
      display: grid;
      grid-template-columns: 1fr 1fr;
      row-gap: 1rem;
-     column-gap: 1rem;
+     column-gap: 3rem;
 }
 
 #contacto > h2 {
@@ -238,5 +238,41 @@ legend, label{
 
 fieldset label{
     font-weight: 400;
+}
+
+table{
+    border: 3px solid #181b1f;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+th, td{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th{
+    background-color: #b10941;
+}
+
+td{
+    background-color: #2c2f33;
+}
+
+tr:nth-child(1) {
+    border: 10px solid transparent;  
+}
+
+.habilidades-blandas{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.habilidad h3{
+    color: #f9fafb;
+
 }
 
